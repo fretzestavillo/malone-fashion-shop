@@ -9,8 +9,8 @@ import { Print } from "./components/Print";
 function App() {
   return (
     <>
-      {/* <BrowserRouter basename="/malone-fashion-shop"> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/malone-fashion-shop">
+        {/* <BrowserRouter> */}
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/SignUp" element={<SignUp />} />

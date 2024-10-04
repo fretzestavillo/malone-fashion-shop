@@ -33,7 +33,19 @@ npm install
 ### For development
 
 ```
-npm run dev
+src/App.tsx
+
+- comment
+    <BrowserRouter basename="/malone-fashion-shop">
+- uncomment
+    {/* <BrowserRouter> */}
+
+```
+
+### Run
+
+```
+ npm run dev
 ```
 
 ### For deployment
@@ -46,6 +58,12 @@ Create repository in Github
 
 ```
  base: mode === "production" ? "/<replace with your  repository name>/" : "/", // Set base for GitHub Pages in production
+```
+
+### src/App.tsx
+
+```
+  <BrowserRouter basename="/<replace with your  repository name>">
 ```
 
 ### Command to connect local repository to remote repository
