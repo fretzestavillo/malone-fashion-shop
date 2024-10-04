@@ -1,6 +1,6 @@
 # Malone Shop Center
 
-This project combines React and Vite for front end, Google App Script for back end also for handling API and Google Sheet for data persistent.
+This project combines React and Vite for front end, Google App Script for back end also for handling API and Google Sheet for data persistent. You can visit here: https://fretzestavillo.github.io/malone-fashion-shop/
 
 ## Getting Started
 
